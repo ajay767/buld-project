@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Light house</title>
+</head>
+<STYLE>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(26, 139, 214);
+
+    }
+    .container{
+        height: 100vh;
+        width: 600px;
+        background-color: rgb(26, 139, 214);
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    button{
+        height: 60px;
+        width: 150px;
+        border: none;
+        border-radius: 5px;
+        background-color: rgb(231, 127, 7);
+        margin-top: 50px;
+        font-size: 25px;
+    }
+    .img-box{
+        height: 375px;
+    width: 283px;
+    }
+    .img-box img{
+        height: 100%;
+        width: 100%;
+    }
+    button:hover{
+        background-color: rgb(216, 56, 16);
+    }
+</STYLE>
+
+<body>
+    <div class="container">
+        <div class="img-box">
+            <img src="off.png" alt="">
+        </div>
+        <button class="on">ON</button>
+        <button class="off">OFF</button>
+    </div>
+</body>
+<script src="app.js"></script>
+</html >
